@@ -20,83 +20,92 @@
     <link rel="stylesheet" href="assets/css/theme.css" />
 
     <style>
-        .bg-light {
+        /* .bg-light {
             background-color: #cfc !important;
+        } */
+
+        .text-primary {
+            color: #007DC6 !important;
+        }
+        .text-primary:hover {
+            color: #007DC6 !important;
+        }
+
+        .normal {
+            color: grey !important;
+        }
+
+        .navv ul li a {
+            color: #FFFFFF !important;
+        }
+
+        .navv ul li a:hover {
+            color: #000000 !important;
+        }
+
+        p {
+            font-size: 17px;
         }
     </style>
 </head>
 
 <body>
-    <div class="back-to-top"></div>
+    <!-- <div class="back-to-top"></div> -->
 
-    <header>
-        <div class="topbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 text-sm">
-                        <div class="site-info">
-                            <a href="tel: +91 9021696978" style="font-size: 16px;"><span class="mai-call text-primary"></span>+91
-                                9021696978</a>
-                            <span class="divider">|</span>
-                            <a href="mail: swastikahospitals@gmail.com" style="font-size: 16px;"><span class="mai-mail text-primary"></span>
-                                swastikahospitals@gmail.com</a>
-                        </div>
-                    </div>
+    <header style="width: 100%;">
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm" style="width: 100%;">
+            <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; width: 100%;">
+                <div class="site-info">
+                    <a href="tel: +91 9021696978" style="font-size: 18px;">
+                       <span class="mai-call text-primary">24x7 Enquiry: <span class="normal">+91 9021696978</span></span>
+                    </a>
 
-                    <div class="col-sm-4 text-right text-sm">
-                        <!-- <div class="social-mini-button"> -->
-                        <!--     <a href="#"><span class="mai-logo-facebook-f"></span></a> -->
-                        <!--     <a href="#"><span class="mai-logo-twitter"></span></a> -->
-                        <!--     <a href="#"><span class="mai-logo-dribbble"></span></a> -->
-                        <!--     <a href="#"><span class="mai-logo-instagram"></span></a> -->
-                        <!-- </div> -->
-                    </div>
+                    <br />
+
+                    <a href="mailto: swastikahospitals@gmail.com" style="font-size: 18px;">
+                        <span class="mai-mail text-primary">Email:<span class="normal">swastikahospitals@gmail.com</span></span>
+                    </a>
                 </div>
+
+                <img src="assets/img/logo.png" alt="logo" width="120px" height="120px" />
+
+                <div></div>
+                <div></div>
             </div>
+        </nav>
+
+        <nav class="navv navbar navbar-expand-lg navbar-light shadow-sm" style="width: 100%; background-color: #007DC6;">
+            <div class="" id="navbarSupport">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" style="color: #000000 !important;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#vision">Vision</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#doctors">Doctors</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#values">Values</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#department">Department</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#processes">Processes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#news">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-            <div class="container" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
-                <a class="navbar-brand" href="#"><span class="text-primary"><img src="assets/img/logo.png" alt="logo"
-                            width="120px" height="120px" /></span></a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport"
-                    aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupport">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#vision">Vision</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#doctors">Doctors</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#values">Values</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#department">Department</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#processes">Processes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#news">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </nav>
     </header>
 
@@ -173,6 +182,46 @@
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
+                /* background-color: #cfcf !important; */
+            " id="vision">
+        <div class="container" style="
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                ">
+                <div style="border: 1px solid #afafaf; box-shadow: 0px 3px 0px #00000010; padding: 8px; border-radius: 6px;">
+                    <h1 class="text-center mb-5 wow fadeInUp">Health Checkup Plan</h1>
+
+                    <p class="text-grey mb-4" style="text-align: center; max-width: 500px">
+                        Prevent lifestyle related diseases with our Preventive Health Check Up services and take necessary steps against diseases that can be managed with lifestyle modification.
+                    </p>
+                </div>
+        </div>
+
+        <!-- <img src="assets/img/vision.png" width="300px" /> -->
+
+        <div class="container" style="
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                ">
+                <div style="border: 1px solid #afafaf; box-shadow: 0px 3px 0px #00000010; padding: 8px; border-radius: 6px;">
+                    <h1 class="text-center mb-5 wow fadeInUp">Golden Age Club</h1>
+
+                    <p class="text-grey mb-4" style="text-align: center; max-width: 500px">
+                        Become a member of Golden Age Club, if you’re an Indian citizen above 60 years old and avail Golden Health benefits for your Golden Age.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <div class="page-section" style="
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
             " id="vision">
         <div class="container" style="
                     display: flex;
@@ -190,7 +239,7 @@
             </p>
         </div>
 
-        <img src="assets/img/vision.png" width="300px" />
+        <!-- <img src="assets/img/vision.png" width="300px" /> -->
 
         <div class="container" style="
                     display: flex;
@@ -662,41 +711,49 @@
 
     <div class="page-section" id="contact">
         <div class="container">
-            <h1 class="text-center wow fadeInUp">Make an Appointment</h1>
+            <h1 class="text-center wow fadeInUp">Consult online with our specilists from the safety of your home.</h1>
 
-            <form class="main-form">
-                <div class="row mt-5">
-                    <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
-                        <input type="text" class="form-control" placeholder="Full name" />
-                    </div>
-                    <div class="col-12 col-sm-6 py-2 wow fadeInRight">
-                        <input type="text" class="form-control" placeholder="Email address.." />
-                    </div>
-                    <div class="col-12 col-sm-6 py-2 wow fadeInLeft" data-wow-delay="300ms">
-                        <input type="date" class="form-control" />
-                    </div>
-                    <div class="col-12 col-sm-6 py-2 wow fadeInRight" data-wow-delay="300ms">
-                        <select name="departement" id="departement" class="custom-select">
-                            <option value="general">General Health</option>
-                            <option value="cardiology">Cardiology</option>
-                            <option value="dental">Dental</option>
-                            <option value="neurology">Neurology</option>
-                            <option value="orthopaedics">Orthopaedics</option>
-                        </select>
-                    </div>
-                    <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
-                        <input type="text" class="form-control" placeholder="Phone Number" />
-                    </div>
-                    <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
-                        <textarea name="message" id="message" class="form-control" rows="6"
-                            placeholder="Explain your problem"></textarea>
-                    </div>
+            <div style="display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; width: 100%;">
+                <div style="max-width: 500px; padding-right: 50px;">
+                    <p>
+                        During the times of this worldwide pandemic, it is imperative that we stay at home and maintain social distancing.
+                    </p>
+                    <p>
+                        However, what about consulting with doctors when you need them?
+                    </p>
+                        
+                    <p>
+                        To cater to your medical needs, we have launched our online tele-consultation services, which allows you to consult the specialist of your choice through video conferencing.
+                    </p>
                 </div>
 
-                <button type="submit" class="btn btn-primary mt-3 wow zoomIn">
-                    Submit Request
-                </button>
-            </form>
+                <form class="main-form">
+                    <div class="row mt-5">
+                        <div class="col-12 col-sm-6 py-2 wow fadeInLeft">
+                            <input type="text" class="form-control" placeholder="Full name" />
+                        </div>
+                        <div class="col-12 col-sm-6 py-2 wow fadeInRight">
+                            <input type="text" class="form-control" placeholder="Email address.." />
+                        </div>
+                        <div class="col-12 col-sm-12 py-2 wow fadeInRight" data-wow-delay="300ms">
+                            <select name="departement" id="departement" class="custom-select">
+                                <option value="general">General Health</option>
+                                <option value="cardiology">Cardiology</option>
+                                <option value="dental">Dental</option>
+                                <option value="neurology">Neurology</option>
+                                <option value="orthopaedics">Orthopaedics</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-sm-12 py-2 wow fadeInUp" data-wow-delay="300ms">
+                            <input type="text" class="form-control" placeholder="Phone Number" />
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-3 wow zoomIn">
+                        Submit Now
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 
